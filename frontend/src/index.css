@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+ul li {
+    transition: all 0.3s;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+}
